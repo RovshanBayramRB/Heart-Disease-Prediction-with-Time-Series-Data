@@ -104,8 +104,8 @@ By that measure the CNN (0.78 recall) is the better model, not the ANN (0.75) �
 ## Running it
 
 ```bash
-git clone https://github.com/RovshanBayramRB/Heart-Disease-Prediction-using-Time-Series-Data.git
-cd Heart-Disease-Prediction-using-Time-Series-Data
+git clone https://github.com/RovshanBayramRB/Heart-Disease-Prediction-with-Time-Series-Data.git
+cd Heart-Disease-Prediction-with-Time-Series-Data
 pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
 jupyter notebook "Heart Disease Prediction using Time Series Data.ipynb"
 ```
@@ -113,3 +113,15 @@ jupyter notebook "Heart Disease Prediction using Time Series Data.ipynb"
 Written for Google Colab with the data in Google Drive — replace the Drive paths in cell 5 with the local `.tsv` filenames to run elsewhere.
 
 Training is fast on CPU; the dataset is tiny.
+
+---
+
+## Repository structure
+
+```
+.
+├── Heart Disease Prediction using Time Series Data.ipynb   # ANN, CNN, LSTM
+├── ECG200_TRAIN.tsv   # 100 series, 96 timesteps
+├── ECG200_TEST.tsv    # 100 series, 96 timesteps
+└── README.md
+```
